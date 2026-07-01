@@ -1,15 +1,15 @@
 [package]
 name = "wp-token-list-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Rust port of @wordpress/token-list — a DOMTokenList-like CSS class token set for managing Gutenberg block className attributes"
-license = "GPL-2.0-or-later"
-repository = "https://github.com/bhubbard/wp-token-list-rs"
-homepage = "https://github.com/bhubbard/wp-token-list-rs"
+license = "GPL-2.0"
+repository = "https://github.com/wp-rust/wp-token-list-rs"
+homepage = "https://github.com/wp-rust/wp-token-list-rs"
 documentation = "https://docs.rs/wp-token-list-rs"
 keywords = ["wordpress", "gutenberg", "css", "classname", "dom"]
 categories = ["text-processing", "data-structures"]
 readme = "README.md"
 
 [dependencies]
-# no external deps — pure std
+
